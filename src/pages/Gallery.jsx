@@ -162,59 +162,64 @@ const Gallery = () => {
         </div>
       </div>
 
+    
       <div className="bg-white shadow-md sticky top-16 z-40">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <div className="flex flex-col sm:flex-row gap-4 items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <Grid className="h-5 w-5 text-gray-500" />
-              <span className="font-medium text-gray-700">Filter Gallery</span>
-            </div>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="flex flex-col sm:flex-col gap-4 items-start justify-between">
+     
+      <div className="flex items-center space-x-2">
+        <Grid className="h-5 w-5 text-gray-500" />
+        <span className="font-medium text-gray-700">Filter Gallery</span>
+      </div>
 
-            <div className="flex items-center gap-4">
-              <div className="flex items-center space-x-2">
-                <Filter className="h-5 w-5 text-gray-500" />
-                <select
-                  value={selectedCategory}
-                  onChange={(e) => setSelectedCategory(e.target.value)}
-                  className="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  <option value="All">All Categories</option>
-                  {categoryOptions
-                    .filter((option) => option !== "All")
-                    .map((option) => (
-                      <option key={option} value={option}>
-                        {option} Events
-                      </option>
-                    ))}
-                </select>
-              </div>
+     
+      <div className="flex flex-col gap-4 w-full">
+        
+        <div className="flex items-center space-x-2">
+          <Filter className="h-5 w-5 text-gray-500" />
+          <select
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+            className="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          >
+            <option value="All">All Categories</option>
+            {categoryOptions
+              .filter((option) => option !== "All")
+              .map((option) => (
+                <option key={option} value={option}>
+                  {option} Events
+                </option>
+              ))}
+          </select>
+        </div>
 
-
-              <div className="flex items-center space-x-2">
-                <Calendar className="h-5 w-5 text-gray-500" />
-                <select
-                  value={selectedYear}
-                  onChange={(e) => setSelectedYear(e.target.value)}
-                  className="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                >
-                  <option value="All">All Years</option>
-                  {yearOptions
-                    .filter((option) => option !== "All")
-                    .map((option) => (
-                      <option key={option} value={option}>
-                        {option}
-                      </option>
-                    ))}
-                </select>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-4 text-sm text-gray-600">
-            Showing {totalPhotos} photos{filterText}
-          </div>
+       
+        <div className="flex items-center space-x-2">
+          <Calendar className="h-5 w-5 text-gray-500" />
+          <select
+            value={selectedYear}
+            onChange={(e) => setSelectedYear(e.target.value)}
+            className="border border-gray-300 rounded-lg px-3 py-2 focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          >
+            <option value="All">All Years</option>
+            {yearOptions
+              .filter((option) => option !== "All")
+              .map((option) => (
+                <option key={option} value={option}>
+                  {option}
+                </option>
+              ))}
+          </select>
         </div>
       </div>
+    </div>
+
+    <div className="mt-4 text-sm text-gray-600">
+      Showing {totalPhotos} photos{filterText}
+    </div>
+  </div>
+</div>
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {filteredGalleries.length > 0 ? (
