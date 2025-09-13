@@ -76,7 +76,7 @@ CampusConnect is a modern, responsive web application designed to help students 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/campusconnect.git
+   git clone https://github.com/WhiteCoderKhalid/TechwizCompetition.git
    cd campusconnect
    ```
 
