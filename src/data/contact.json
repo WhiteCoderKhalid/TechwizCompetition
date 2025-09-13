@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Amina Yusuf",
+    "designation": "Faculty Coordinator",
+    "department": "Computer Science",
+    "phone": "+234 801 234 5678",
+    "email": "amina.yusuf@unilag.edu.ng",
+    "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=300"
+  },
+  {
+    "id": 2,
+    "name": "Prof. Chinedu Okafor",
+    "designation": "Cultural Events Head",
+    "department": "Fine Arts",
+    "phone": "+234 809 876 5432",
+    "email": "chinedu.okafor@unn.edu.ng",
+    "image": "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=300"
+  },
+  {
+    "id": 3,
+    "name": "Mr. Adewale Ogunleye",
+    "designation": "Sports Coordinator",
+    "department": "Physical Education",
+    "phone": "+234 802 456 7890",
+    "email": "adewale.ogunleye@oauife.edu.ng",
+    "image": "https://images.pexels.com/photos/18856541/pexels-photo-18856541.jpeg?auto=compress&cs=tinysrgb&w=300"
+  },
+  {
+    "id": 4,
+    "name": "Mr. Segun Adeyemi",
+    "designation": "Logistics & Operations",
+    "department": "Event Management",
+    "phone": "+234 805 987 6543",
+    "email": "babatunde.ajayi@lasu.edu.ng",
+    "image": "https://images.pexels.com/photos/33521730/pexels-photo-33521730.jpeg?auto=compress&cs=tinysrgb&w=300"
+  }
+]

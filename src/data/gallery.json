@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "title": "TechFest 2025 Highlights",
+      "category": "Technical",
+      "year": 2025,
+      "images": [
+        {
+          "url": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Robotics Competition Winner"
+        },
+        {
+          "url": "https://images.pexels.com/photos/3861943/pexels-photo-3861943.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "AI Workshop Session"
+        },
+        {
+          "url": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Coding Marathon"
+        },
+        {
+          "url": "https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Tech Exhibition"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cultural Night 2025",
+      "category": "Cultural",
+      "year": 2025,
+      "images": [
+        {
+          "url": "https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Dance Performance"
+        },
+        {
+          "url": "https://images.pexels.com/photos/3693106/pexels-photo-3693106.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Music Concert"
+        },
+        {
+          "url": "https://images.pexels.com/photos/3693107/pexels-photo-3693107.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Drama Performance"
+        },
+        {
+          "url": "https://images.pexels.com/photos/126937/pexels-photo-126937.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "caption": "Art Exhibition"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Sports Meet 2023",
+      "category": "Sports",
+      "year": 2023,
+      "images": [
+        {
+          "url": "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Football Championship"
+        },
+        {
+          "url": "https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Basketball Finals"
+        },
+        {
+          "url": "https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Track Events"
+        },
+        {
+          "url": "https://images.pexels.com/photos/863988/pexels-photo-863988.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "caption": "Victory Ceremony"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Business Summit 2024",
+      "category": "Business",
+      "year": 2024,
+      "images": [
+        {
+          "url": "https://picsum.photos/seed/business1/600/400",
+          "caption": "Keynote Presentation"
+        },
+        {
+          "url": "https://picsum.photos/seed/business2/600/400",
+          "caption": "Networking Session"
+        },
+        {
+          "url": "https://picsum.photos/seed/business3/600/400",
+          "caption": "Panel Discussion"
+        },
+        {
+          "url": "https://picsum.photos/seed/business4/600/400",
+          "caption": "Closing Reception"
+        }
+      ]
+    }
+    
+  ]
